@@ -7,7 +7,7 @@ def data_masking(var):
     return var
   count = len(var)
   if count <= 2:
-    var = var[0] + '**'
+    var = var[0] + '*'
   else:
     var = var[0] + '**' + var[count - 1]
   return var
