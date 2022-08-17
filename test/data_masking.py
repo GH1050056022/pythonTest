@@ -12,5 +12,5 @@ def data_masking(var):
     var = var[0] + '*'*(len(var)-2) + var[count - 1]
   return var
 
-var = data_masking('不问知雪呀')
+var = data_masking(' Tommy Wong '.strip())
 print(var)
