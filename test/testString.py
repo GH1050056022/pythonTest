@@ -13,6 +13,11 @@ print(var.isdigit())
 # 截掉字符串左边的空格或指定字符。
 print(var.lstrip('l'))
 
+if var.find('Lucio'):
+  print('s')
+else:
+  print('f')
+
 # 返回字符串长度
 num = len(var)
 print(num)
