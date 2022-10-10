@@ -13,10 +13,17 @@ print(var.isdigit())
 # 截掉字符串左边的空格或指定字符。
 print(var.lstrip('l'))
 
+# 替换
+print(var.replace('o', 'aoa'))
+
+# 是否以X开始
+print(var.startswith('x'))
+
+# 检查字符串中是否包含某些内容
 if var.find('Lucio'):
-  print('s')
+  print('true')
 else:
-  print('f')
+  print('false')
 
 # 返回字符串长度
 num = len(var)
